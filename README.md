@@ -2,7 +2,7 @@
 
 ![Funcionamento](Funcionamento.gif)
 
-Jogo da Memória
+
 
 
 ## Introdução
@@ -12,11 +12,14 @@ O tabuleiro é composto por displays de 7 segmentos (hexadecimal), que exibem n�
 Durante o jogo, os jogadores revelam dois displays por vez, buscando pares iguais. A interação é realizada por meio de botões para selecionar linhas e colunas,
 proporcionando uma experiência dinâmica.
 
+
 ## Objetivo
 
 O objetivo do projeto é apresentar os detalhes da construção de um jogo da memória para dois jogadores, 
 implementado em um tabuleiro 4x4 utilizando o simulador Logisim. Adicionalmente, o trabalho visa explorar os conceitos
 abordados na disciplina de Circuitos Digitais, aplicando-os na prática para a criação de um sistema funcional e interativo.
+
+
 
 ## Componentes Utilizados
 
@@ -24,11 +27,12 @@ abordados na disciplina de Circuitos Digitais, aplicando-os na prática para a c
 
 O sistema usa multiplexadores para controlar displays 4x4 que permite o uso dinâmico ddos displays durante o jogo.
 
-
 ![multiplexador](multiplexador)
 
 
-### Inserção
+
+
+### Inserção dos LEDs de seleção
 
 O circuito permite a seleção de displays através de botões que alternam entre as linhas e as colunas. 
 O sistema possibilita a navegação entre as opções de displays, com base nas entradas dos botões, controlando a ativação dos LEDs conforme a posição selecionada.
@@ -36,6 +40,7 @@ Para isso, foram utilizados túneis conectados aos LEDs correspondentes, permiti
 e coluna seja refletida na ativação dos LEDs específicos garantindo uma navegação intuitiva e eficiente pelo sistema.
 
 ![Linhaecoluna](Linhaecoluna.gif)
+
 
 
 ### Escolhendo os Displays
@@ -46,6 +51,7 @@ Os registradores armazenam as posições dos displays escolhidos, e as transiç�
 ![Linha_coluna_estado](Linha_coluna_estado.gif)
 
 
+
 ### Exibição dos displays
 
 O circuito controla a exibição de um display com base em situações específicas.
@@ -53,26 +59,40 @@ As condições são avaliadas por contadores e multiplexadores que determinam se
 
 ![Estados](Estados.gif)
 
-![LEDsdeseleção](LEDsdeseleção.gif)
 
-![pontuação](pontuação.gif)
+
+### Visualização de pares
+
+O circuito implementa a lógica de pontuação e visibilidade no jogo de pares. Ele é composto por túneis referentes as linhas e colunas
+portas lógicas (AND, NOR) e contadores.
+
+
+![pares](pares.gif)
+
+
+### Atualização de pontuação
 
 O sistema compara as escolhas do jogador. Se forem iguais, a pontuação é aumentada e o display é mantido visível.
 O circuito utiliza contadores para registrar a linha e a coluna dos displays selecionados e um comparador 
 para verificar se as posições dos dois displays selecionados são iguais.
 
 
+![pontuação](pontuação.gif)
+
+
+### Contagem individual
+
 ![Estado0](Estado.gif)
 
 O circuito foi implementado com o objetivo de garantir a contagem individual de pontos de dois jogadores. Para isso foi utilizado
 contadores e uma porta NOT ligado no túnel referente ao jogador 0. 
+
 
 ![igualdade](igualdade.gif)
 
 O circuito garante que a igualdade entre as pontuações seja efetiva.
 
 ## Conclusão 
-
 
 O projeto do jogo da memória digital foi concluído com sucesso, atendendo a todos os requisitos propostos.
 A implementação utilizou de forma eficiente circuitos sequenciais e combinacionais, como registradores, multiplexadores,
