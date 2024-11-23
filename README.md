@@ -67,8 +67,7 @@ O circuito implementa a lógica de pontuação e visibilidade no jogo de pares. 
 portas lógicas (AND, NOR) e contadores.
 
 
-![pares](pares.gif)
-
+![acertado](acertado.gif)
 
 ### Atualização de pontuação
 
