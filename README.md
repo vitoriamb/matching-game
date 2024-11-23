@@ -39,7 +39,7 @@ O sistema possibilita a navegação entre as opções de displays, com base nas 
 Para isso, foram utilizados túneis conectados aos LEDs correspondentes, permitindo que a escolha de linha
 e coluna seja refletida na ativação dos LEDs específicos garantindo uma navegação intuitiva e eficiente pelo sistema.
 
-![Linhaecoluna](Linhaecoluna.gif)
+![LEDsdeseleção](LEDsdeseleção.gif)
 
 
 
@@ -82,15 +82,20 @@ para verificar se as posições dos dois displays selecionados são iguais.
 
 ### Contagem individual
 
-![Estado0](Estado.gif)
-
 O circuito foi implementado com o objetivo de garantir a contagem individual de pontos de dois jogadores. Para isso foi utilizado
 contadores e uma porta NOT ligado no túnel referente ao jogador 0. 
 
 
-![igualdade](igualdade.gif)
+![Estado0](Estado0.gif)
+
+
+### Igualdade
 
 O circuito garante que a igualdade entre as pontuações seja efetiva.
+
+![igualdade](igualdade.gif)
+
+
 
 ## Conclusão 
 
