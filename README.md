@@ -39,7 +39,7 @@ O sistema possibilita a navegação entre as opções de displays, com base nas 
 Para isso, foram utilizados túneis conectados aos LEDs correspondentes, permitindo que a escolha de linha
 e coluna seja refletida na ativação dos LEDs específicos garantindo uma navegação intuitiva e eficiente pelo sistema.
 
-![LEDsdeseleção](LEDsdeseleção.gif)
+![linha](linha.gif)
 
 
 
