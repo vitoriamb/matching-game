@@ -25,7 +25,7 @@ abordados na disciplina de Circuitos Digitais, aplicando-os na prática para a c
 
 ### Multiplexadores Controlados
 
-O sistema usa multiplexadores para controlar displays 4x4 que permite o uso dinâmico ddos displays durante o jogo.
+O sistema usa multiplexadores para controlar displays 4x4 que permite o uso dinâmico dos displays durante o jogo.
 
 ![multiplexador](multiplexador)
 
