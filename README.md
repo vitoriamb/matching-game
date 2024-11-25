@@ -8,7 +8,7 @@
 ## Introdução
 
  O relatório descreve a construção de um jogo da memória para dois jogadores, implementado em um tabuleiro 4x4 utilizando o simulador Logisim.
-O tabuleiro é composto por displays de 7 segmentos (hexadecimal), que exibem números em formato hexadecimal, inicialmente ocultos.
+O tabuleiro é composto por displays de 7 segmentos, que exibem números em formato hexadecimal, inicialmente ocultos.
 Durante o jogo, os jogadores revelam dois displays por vez, buscando pares iguais. A interação é realizada por meio de botões para selecionar linhas e colunas,
 proporcionando uma experiência dinâmica.
 
@@ -98,9 +98,7 @@ O circuito garante que a igualdade entre as pontuações seja efetiva.
 
 ## Conclusão 
 
-O projeto do jogo da memória digital foi concluído com sucesso, atendendo a todos os requisitos propostos.
+O projeto do jogo da memória foi concluído com sucesso, atendendo a todos os requisitos propostos.
 A implementação utilizou de forma eficiente circuitos sequenciais e combinacionais, como registradores, multiplexadores,
 contadores e portas lógicas (AND, NOT). O uso estratégico de túneis foi fundamental para otimizar a lógica dos circuitos, garantindo maior praticidade e eficiência.
 O jogo permite a seleção de displays, validação de pares e contagem de pontos, evidenciando a aplicação prática dos conceitos de circuitos digitais.
-A interface, composta por LEDs para a indicação dos turnos e displays de 7 segmentos para as pontuações, operou de maneira clara e objetiva, 
-cumprindo de forma eficaz os objetivos do projeto.
